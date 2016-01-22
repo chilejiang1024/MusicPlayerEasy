@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PlayViewController.h
 //  MusicPlayerEasy
 //
 //  Created by JiangChile on 16/1/22.
@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MusicModel.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface PlayViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
-
+@property (nonatomic ,retain) MusicModel *model;
 
 @end
-

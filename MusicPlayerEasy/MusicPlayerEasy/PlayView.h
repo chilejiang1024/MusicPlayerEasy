@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PlayView.h
 //  MusicPlayerEasy
 //
 //  Created by JiangChile on 16/1/22.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface PlayView : UIView
 
 @end
-
